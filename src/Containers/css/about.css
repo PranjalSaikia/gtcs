@@ -1,0 +1,31 @@
+.banner-about{
+    margin-top: 10vh;
+}
+
+.banner-about-image{
+    width: 100%;
+}
+
+#about_body h1{
+    font-weight: 700;
+}
+
+#about_body h2{
+    padding-bottom: 5vh;
+}
+
+#about_body p{
+    line-height: 2em;
+    text-align: justify;
+    font-size: 1.2em;
+    padding-bottom: 3vh;
+}
+
+#about_table{
+    width: 70%;
+}
+
+#about_table tr td{
+    padding: 10px;
+    border-bottom: solid thin lightgrey;
+}

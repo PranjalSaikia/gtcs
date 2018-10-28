@@ -1,0 +1,40 @@
+.loader-body{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader-overlay{
+    background-color: rgba(0,0,0,0.1);
+    height: 100vh;
+    width: 100vw;
+}
+
+.loader-text{
+    position: fixed;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.3);
+}
+
+.close-tag{
+    position: fixed;
+    margin-top: -2vh;
+    margin-left: 17vw;
+}
+
+.close-tag span{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px){
+    .close-tag{
+        margin-left: 64vw;
+    }
+}

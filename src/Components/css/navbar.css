@@ -1,0 +1,76 @@
+.navbar-own{
+    height: 10vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    padding-left: 5vw;
+    padding-right: 1vw;
+    background-color: #8947EC;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.navbar-own-brand h1{
+    font-size: 2em !important;
+    font-weight: 700;
+    color: white;
+}
+
+.list-own-container{
+    text-align: right;
+    padding-top: 20px;
+}
+
+.list-own{
+    list-style-type: none;
+}
+
+.list-own li{
+    display: inline;
+    padding-right: 20px;
+    color: white !important;
+    font-size: 1.13em;
+}
+
+@media only screen and (max-width: 600px){
+    .list-own-container{
+        display: none;
+    }
+    .small-nav{
+        display: block !important;
+    }
+}
+
+.small-nav{
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-right: 3vw;
+    margin-top: 3vh;
+    color: white;
+}
+
+
+/* ******************************** */
+
+.sidenav-own{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 70vw;
+    background-color: rgba(255,255,255,0.95);
+    height: 100vh;
+    margin-top: 10vh;
+    padding: 30px;
+}
+
+#list_sidenav li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+    border-bottom: solid thin lightgrey;
+    color: black;
+}

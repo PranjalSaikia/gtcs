@@ -1,0 +1,54 @@
+.banner{
+    width: 100%;
+    background-color: #8947EC;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    z-index: -1;
+}
+
+.banner-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 32vh;
+    padding-left: 5vw;
+    font-size: 4.5em;
+    font-weight: 900;
+    color: white;
+    line-height: 1em;
+}
+
+.banner-text-small{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 60vh;
+    padding-left: 5vw;
+    font-size: 1.5em;
+    font-weight: 900;
+    color: white;
+}
+
+@media only screen and (max-width: 600px){
+    .banner-text-small{
+        padding-top: 50vh
+    }
+}
+
+.banner-image{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+}
+
+.banner-image-tag{
+    width: 80%;
+}
+
+@media only screen and (max-width: 600px){
+    .banner-text{
+        font-size: 2.5em;
+    }
+}

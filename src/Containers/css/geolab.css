@@ -1,0 +1,8 @@
+#table_soil thead tr th:nth-child(4){
+    text-align: right;
+}
+
+
+#table_soil tbody tr td:nth-child(4){
+    text-align: right;
+}

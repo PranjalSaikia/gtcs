@@ -1,0 +1,20 @@
+.who-are-we{
+    margin-top: 90vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 10vh;
+}
+
+.who-are-we h1{
+    font-size: 3em;
+    font-weight: 900;
+}
+
+.who-are-we p {
+    font-size: 1.3em;
+    font-weight: 200;
+    text-align: justify;
+    line-height: 1.8em;
+    padding-top: 4vh;
+    padding-bottom: 5vh;
+}
